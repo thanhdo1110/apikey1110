@@ -1,7 +1,7 @@
 # apikey1110
 ctdotech
 
-Cách tích hợp api ví dụ: PubgLoad.mm
+Cách tích hợp api ví dụ: PubgLoad.mm (áp dụng với menu dạng khác thì cũng thế thêm hàm này vào là xong ạ)
 ```
 #import "Zone1110/Zone1110.h" //import file Zone1110.h dự án
 
