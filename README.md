@@ -1,17 +1,17 @@
-# apikey1110
+# apikey1110 v1.1
 Test
 
 ## Tích hợp api
-> Trước tiên thêm **``` #import "Zone1110/Zone1110.h" ```** vào đầu dự án
+> Trước tiên thêm **``` #import "Zone1110/Apikey1110.h" ```** vào đầu dự án
 ```
 + (void)load {
   [super load];
 
   dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)),
                  dispatch_get_main_queue(), ^{
-                   Zone1110 *api = [[Zone1110 alloc] init];
+                   Apikey1110 *api = [[Apikey1110 alloc] init];
 
-                   extraInfo = [Zone1110 new];
+                   extraInfo = [Apikey1110 new];
 
                    [api setToken:NSSENCRYPT("dothanh1110-A2GbjxQnBoMkSvDwufV6KaPZTCYWc1sd4e59091a4e062acb018ac243f3b94973")];
 
@@ -22,7 +22,7 @@ Test
 }
 ```
 > Cấu hình ở Makefile
-> ```$(TWEAK_NAME)_LDFLAGS+= Zone1110/Zone1110.a```
+> ```$(TWEAK_NAME)_LDFLAGS+= Zone1110/Apikey1110.a```
 
 ## Preview
 
